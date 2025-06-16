@@ -3,13 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Code Pro', monospace;
-    color: ghostwhite;
 }
 
 body{
     width: 100%;
     height: 100vh;
-    background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 800px 75px;
@@ -29,7 +27,6 @@ nav ul li{
 
 /*#1d1d24*/
 nav ul li a{
-    color: ghostwhite ;
     position: relative;
     padding: 5px 0;
     font-family: 'Source Code Pro', monospace;
