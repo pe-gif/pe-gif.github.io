@@ -24,30 +24,3 @@ nav ul li{
     display: inline-block;
     padding: 10px 50px;
 }
-
-/*#1d1d24*/
-nav ul li a{
-    position: relative;
-    padding: 5px 0;
-    font-family: 'Source Code Pro', monospace;
-}
-/*palevioletred*/
-
-nav ul li a:hover{
-    color: #ECEC1B
-}
-
-nav ul li a:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: #ECEC1B;
-    transition: .3s;
-    bottom: 0;
-}
-
-nav ul li a:hover:after{
-    width: 100%;
-}
